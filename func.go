@@ -10,9 +10,9 @@ func mult(x int, y int) int {
 
 func nome(nome string, sobrenome string) string{
 	fmt.Println('My name is', nome, 'and sobrenome is', sobrenome)
-
+	return 'String'
 }
 
 func main(){
-	nome("Anderson", "Cezar")
+	nome("#", "#")
 }
